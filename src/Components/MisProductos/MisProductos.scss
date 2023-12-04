@@ -1,0 +1,18 @@
+.filtersContainer
+{
+    display: flex;
+    justify-content: center;
+    & label{
+        font-weight: bold;
+        margin-left: 20px;
+    }
+}
+.sectionProducts{
+    width: 96%;
+    margin: 2rem 2rem;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-items: center;
+        
+}

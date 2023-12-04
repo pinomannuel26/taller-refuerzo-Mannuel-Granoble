@@ -1,0 +1,13 @@
+.contador{
+    width: 100%;
+    text-align:center;
+    & p{
+        font-size: x-large;
+        
+    }
+    & button{
+        margin-left: 10px;
+        border-radius: 5px;
+        font-weight: bold;
+    }
+}
